@@ -1,7 +1,7 @@
 package computer;
 
 public class Pc {
-	int price;
+	private int price;
 	String brand;
 	Cpu cpu;
 	HardDisk HD;
@@ -39,18 +39,18 @@ public class Pc {
 	}
 	public void judge(String brand) {
 		if(brand=="intel") {
-			System.out.println("·ûºÏÒªÇó");
+			System.out.println("ç¬¦åˆè¦æ±‚");
 		}else {
-			System.out.println("²»ÊÊºÏ");
+			System.out.println("ä¸é€‚åˆ");
 		}
 		
 	}
 	public void show(){
-	System.out.println("cpuµÄËÙ¶ÈÊÇ£º"+cpu.getSpeed());	
-	System.out.println("cpuµÄÈİÁ¿ÊÇ£º"+HD.getAmount());	
+	System.out.println("cpuçš„é€Ÿåº¦æ˜¯ï¼š"+cpu.getSpeed());	
+	System.out.println("cpuçš„å®¹é‡æ˜¯ï¼š"+HD.getAmount());	
 	}
 	public static void main(String[] args) {
-		Pc pc=new Pc(4000,"ÁªÏë");
+		Pc pc=new Pc(4000,"è”æƒ³");
 		pc.judge(pc.brand);
 		
 	}
