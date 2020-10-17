@@ -1,8 +1,8 @@
 package computer;
 
 public class Cpu {
-	int price;
-	float tempereture;
+	private int price;
+	private float tempereture;
 	int speed;
 	public int getPrice() {
 		return price;
