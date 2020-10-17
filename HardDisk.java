@@ -1,7 +1,7 @@
 package computer;
 
 public class HardDisk {
-	float storage;
+	private float storage;
 	String brand;
 	int amount;
 	public float getStorage() {
